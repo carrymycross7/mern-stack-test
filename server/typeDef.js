@@ -14,7 +14,12 @@ type Book {
 # clients can execute, along with the return type for each. In this
 # case, the "books" query returns an array of zero or more Books (defined above).
 type Query {
-    books: [Book]
+    books: [Book],
+    findBookByAuthor(author: String): Book
+}
+
+type Mutation {
+    addBook(title: String, author: String): Book
 }
 `;
 
