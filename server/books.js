@@ -7,16 +7,6 @@ const BookSchema = new mongoose.Schema({
 });
 
 
-const Book = new mongoose.model('Book', BookSchema, 'books');
+const Book = mongoose.model('Book', BookSchema);
 
-const fetchBooks = async () => {
-  try {
-    const books = await Book.find({});
-    return books;
-  } catch(err) {
-    console.error(err);
-  }
-};
-
-const books = fetchBooks()
-export default books;
+export default Book;

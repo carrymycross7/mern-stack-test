@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c2b0474-920d-46e4-95e9-39c94bfe5001" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/books.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/resolvers.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/resolvers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
@@ -45,7 +43,7 @@
     &quot;Node.js.server.js.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/#2-redo-file-structure&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Dustin/github.com/react-course&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -83,6 +81,8 @@
       <workItem from="1714619515918" duration="804000" />
       <workItem from="1714654127738" duration="597000" />
       <workItem from="1714785018808" duration="7516000" />
+      <workItem from="1715463834256" duration="2429000" />
+      <workItem from="1715482979412" duration="1344000" />
     </task>
     <servers />
   </component>

@@ -22,6 +22,7 @@ db.once('open', function() {
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  cacheControl: false
 });
 
 // Passing an ApolloServer instance to the `startStandaloneServer` function:
