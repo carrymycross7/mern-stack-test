@@ -20,6 +20,15 @@ const resolvers = {
         console.error('Error:', error);
       }
     }
+  },
+  Mutation: {
+    addBook: async (parentValue, args) => {
+      const newBook = new Book({
+        title: args.title,
+        author: args.author
+      });
+      return newBook.save();
+    }
   }
 };
 
