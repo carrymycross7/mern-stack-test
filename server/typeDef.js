@@ -6,6 +6,7 @@ const typeDefs = `#graphql
 
 # This "Book" type defines the queryable fields for every book in our data source.
 type Book {
+    _id: String,
     title: String
     author: String
 }
@@ -19,7 +20,8 @@ type Query {
 }
 
 type Mutation {
-    addBook(title: String, author: String): Book
+    addBook(title: String, author: String): Book,
+    removeBook(title: String, author: String): Book
 }
 `;
 
