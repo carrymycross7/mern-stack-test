@@ -28,6 +28,17 @@ const resolvers = {
         author: args.author
       });
       return newBook.save();
+    },
+    removeBook: async (parentValue, args) => {
+      try {
+        let book = await Book.findOne({
+          title: args.title, author: args.author
+        })
+        return await Book.findByIdAndDelete({_id: book._id.toString()})
+      } catch (er) {
+        console.error('Error:', er);
+      }
+      //return Book.findOneAndDelete({ _id: args.id });
     }
   }
 };
